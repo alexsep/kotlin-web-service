@@ -1,4 +1,4 @@
-package com.example.car.interfaces
+package com.example.car.interfaces.incoming
 
 import com.example.car.domain.Driver
 import com.example.car.domain.DriverRepository

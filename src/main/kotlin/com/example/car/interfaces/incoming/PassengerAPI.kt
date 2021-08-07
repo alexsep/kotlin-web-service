@@ -1,4 +1,4 @@
-package com.example.car.interfaces
+package com.example.car.interfaces.incoming
 
 import com.example.car.domain.Passenger
 import com.example.car.domain.PassengerRepository

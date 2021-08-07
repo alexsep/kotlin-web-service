@@ -23,9 +23,13 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.springframework.hateoas:spring-hateoas")
+    implementation("com.jayway.jsonpath:json-path")
     runtimeOnly("com.h2database:h2")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    testImplementation("io.rest-assured:spring-mock-mvc:4.3.2")
+    testImplementation("org.springframework.cloud:spring-cloud-contract-wiremock:2.2.5.RELEASE")
+
 }
 
 tasks.withType<KotlinCompile> {

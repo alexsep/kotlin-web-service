@@ -1,0 +1,89 @@
+{
+  "geocoded_waypoints": [
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJPcyqh8dZzpQRchzSeWqiB2s",
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJfVrh8pRZzpQRkF4-eSYhud4",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": -23.5650358,
+          "lng": -46.6511665
+        },
+        "southwest": {
+          "lat": -23.5657821,
+          "lng": -46.6520502
+        }
+      },
+      "copyrights": "Map data ©2021 Google",
+      "legs": [
+        {
+          "distance": {
+            "text": "0.1 km",
+            "value": 122
+          },
+          "duration": {
+            "text": "1 min",
+            "value": 30
+          },
+          "end_address": "Av. Paulista, 1000 - Bela Vista, São Paulo - SP, 01310-100, Brazil",
+          "end_location": {
+            "lat": -23.5650358,
+            "lng": -46.6520502
+          },
+          "start_address": "Av. Paulista, 900 - Bela Vista, São Paulo - SP, 01310-100, Brazil",
+          "start_location": {
+            "lat": -23.5657821,
+            "lng": -46.6511665
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.1 km",
+                "value": 122
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 30
+              },
+              "end_location": {
+                "lat": -23.5650358,
+                "lng": -46.6520502
+              },
+              "html_instructions": "Head <b>northwest</b> on <b>Av. Paulista</b> toward <b>Alameda Campinas</b><div style=\"font-size:0.9em\">Closed Sundays 10:00 AM – 7:00 PM</div><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+              "polyline": {
+                "points": "buynCxpv{GIJIH_BnBCDGHSX"
+              },
+              "start_location": {
+                "lat": -23.5657821,
+                "lng": -46.6511665
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "buynCxpv{GsCnD"
+      },
+      "summary": "Av. Paulista",
+      "warnings": [],
+      "waypoint_order": []
+    }
+  ],
+  "status": "OK"
+}
